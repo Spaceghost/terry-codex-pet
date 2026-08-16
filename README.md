@@ -33,3 +33,5 @@ The atlas uses 192 × 208 pixel cells in an 8 × 11 grid and includes the standa
 ## Note
 
 This is an unofficial fan work made in appreciation of Terry and TempleOS. It is not affiliated with or endorsed by Terry's estate, the TempleOS project, or OpenAI.
+
+The artwork was made with AI-assisted image tools and finished through an iterative, human-directed spritesheet and QA process.
