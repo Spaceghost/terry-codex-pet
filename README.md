@@ -30,6 +30,19 @@ Restart Codex if the pet does not appear immediately.
 
 The atlas uses 192 × 208 pixel cells in an 8 × 11 grid and includes the standard animation states plus all 16 look directions.
 
+## Two versions
+
+The root files are the talkative `terry` build with the comic outbursts. A quieter historical build is preserved under `variants/terry-watchful`; it has no speech bubbles and occasionally looks off to the side.
+
+To keep both installed, use two separate pet folders:
+
+```text
+%USERPROFILE%\.codex\pets\terry\
+%USERPROFILE%\.codex\pets\terry-watchful\
+```
+
+Copy the root `pet.json` and `spritesheet.webp` into the first folder, then copy the matching files from `variants/terry-watchful` into the second.
+
 ## Note
 
 This is an unofficial fan work made in appreciation of Terry and TempleOS. It is not affiliated with or endorsed by Terry's estate, the TempleOS project, or OpenAI.
