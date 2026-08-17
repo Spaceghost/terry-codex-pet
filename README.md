@@ -26,7 +26,7 @@ Restart Codex if the pet does not appear immediately.
 
 - `pet.json` — pet metadata
 - `spritesheet.webp` — the complete v2 animation atlas
-- `preview.gif` — an idle-loop preview; Codex does not need this file
+- `preview.gif` — an animation-loop preview; Codex does not need this file
 
 The atlas uses 192 × 208 pixel cells in an 8 × 11 grid and includes the standard animation states plus all 16 look directions.
 
