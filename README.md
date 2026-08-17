@@ -1,6 +1,6 @@
 # Terry — a Codex pet
 
-A small, fan-made tribute to Terry A. Davis: hunched over the keyboard, framed by a bright TempleOS-inspired desktop, and occasionally checking what is happening just outside the camera.
+A small, fan-made tribute to Terry A. Davis: hunched over the keyboard, framed by the real visual language of TempleOS, and occasionally checking what is happening just outside the camera.
 
 ![Terry pet preview](preview.gif)
 
@@ -28,7 +28,11 @@ Restart Codex if the pet does not appear immediately.
 - `spritesheet.webp` — the complete v2 animation atlas
 - `preview.gif` — an animation-loop preview; Codex does not need this file
 
-The atlas uses 192 × 208 pixel cells in an 8 × 11 grid and includes the standard animation states plus all 16 look directions.
+The atlas uses 192 × 208 pixel cells in an 8 × 11 grid and includes the standard animation states plus all 16 look directions. Every occupied cell uses the same rigid 182 × 198 viewport with five-pixel margins, so the pet never changes width between frames.
+
+The surrounding desktop was grounded in the [official TempleOS site](https://templeos.org/), the official TempleOS header artwork, and public-domain TempleOS 5.03 screenshots from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:TempleOS). The UI panes, top status line, 16-color text accents, icons, and sword-and-scales imagery are treated as part of Terry's fixed webcam frame.
+
+The talkative loops keep the connected `#@!%` bubble visible throughout the six-frame working animation and `GLOWIE!` throughout the six-frame review animation.
 
 ## Two versions
 
